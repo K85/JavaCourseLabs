@@ -1,10 +1,10 @@
-package lab4.awts;
+package lab4;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class Oval extends JPanel {
+public class Square {
 
   private static Random generator = new Random();
   private int length;
@@ -12,7 +12,7 @@ public class Oval extends JPanel {
   private int y;
   private Color color;
 
-  public Oval() {
+  public Square() {
     this.length = generator.nextInt(101) + 100;
     this.x = generator.nextInt(401);
     this.y = generator.nextInt(401);
@@ -20,10 +20,7 @@ public class Oval extends JPanel {
   }
 
   public void paint(Graphics g) {
-
     g.setColor(this.color);
-    g.drawOval(this.x, this.y, this.length, this.length);
-
-    System.out.println("circle construct: " + g);
+    g.drawRect(this.x, this.y, this.length, this.length);
   }
 }

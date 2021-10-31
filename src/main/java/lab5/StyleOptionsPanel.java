@@ -13,10 +13,13 @@ import java.awt.event.*;
 public class StyleOptionsPanel extends JPanel {
   private int fontSize = 36;
   private int style = Font.PLAIN;
-  private JLabel saying;
-  private JCheckBox bold, italic;
-  private JRadioButton small, medium, large;
-  private ButtonGroup buttonGroup;
+  private final JLabel saying;
+  private final JCheckBox bold;
+    private final JCheckBox italic;
+  private final JRadioButton small;
+    private final JRadioButton medium;
+    private final JRadioButton large;
+  private final ButtonGroup buttonGroup;
 
   // -----------------------------------------------------------------
   // Sets up a panel with a label and some check boxes that

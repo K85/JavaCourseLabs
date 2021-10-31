@@ -15,8 +15,8 @@ public class ReboundPanel extends JPanel
    private final int WIDTH = 300, HEIGHT = 100;
    private final int DELAY = 20, IMAGE_SIZE = 35;
 
-   private ImageIcon image;
-   private Timer timer;
+   private final ImageIcon image;
+   private final Timer timer;
    private int x, y, moveX, moveY;
 
    //-----------------------------------------------------------------

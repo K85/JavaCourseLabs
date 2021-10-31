@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class BandBooster {
 
-  private String name;
+  private final String name;
   private int boxesSold;
 
   public BandBooster(String name) {

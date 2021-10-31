@@ -8,7 +8,7 @@ package coursesource.chap12;
 
 public class TowersOfHanoi
 {
-   private int totalDisks;
+   private final int totalDisks;
 
    //-----------------------------------------------------------------
    //  Sets up the puzzle with the specified number of disks.

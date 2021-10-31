@@ -9,7 +9,7 @@ package lab6;
 public class BiasedCoin {
   public static final int HEADS = 0;
   public static final int TAILS = 1;
-  private double bias;
+  private final double bias;
   private int face;
 
   // ---------------------------------------------

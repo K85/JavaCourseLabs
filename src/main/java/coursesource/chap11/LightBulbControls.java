@@ -12,8 +12,9 @@ import java.awt.event.*;
 
 public class LightBulbControls extends JPanel
 {
-   private LightBulbPanel bulb;
-   private JButton onButton, offButton;
+   private final LightBulbPanel bulb;
+   private final JButton onButton;
+    private final JButton offButton;
 
    //-----------------------------------------------------------------
    //  Sets up the lightbulb control panel.

@@ -8,7 +8,9 @@ package coursesource.chap10;
 
 public class Contact implements Comparable
 {
-   private String firstName, lastName, phone;
+   private final String firstName;
+   private final String lastName;
+   private final String phone;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this contact with the specified data.

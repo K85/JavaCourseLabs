@@ -12,9 +12,10 @@ import javax.swing.*;
 
 public class LeftRightPanel extends JPanel
 {
-   private JButton left, right;
-   private JLabel label;
-   private JPanel buttonPanel;
+   private final JButton left;
+    private final JButton right;
+   private final JLabel label;
+   private final JPanel buttonPanel;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up the GUI.

@@ -15,7 +15,7 @@ public class DotsPanel extends JPanel
 {
    private final int SIZE = 6;  // radius of each dot
 
-   private ArrayList<Point> pointList;
+   private final ArrayList<Point> pointList;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this panel to listen for mouse events.

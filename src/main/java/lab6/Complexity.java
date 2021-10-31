@@ -10,6 +10,6 @@ package lab6;
  
 public interface Complexity 
 { 
-   public void setComplexity (int complexity); 
-   public int getComplexity(); 
+   void setComplexity(int complexity);
+   int getComplexity();
 } 

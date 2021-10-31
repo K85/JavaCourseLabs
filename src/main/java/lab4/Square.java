@@ -6,11 +6,11 @@ import java.util.Random;
 
 public class Square {
 
-  private static Random generator = new Random();
-  private int length;
-  private int x;
-  private int y;
-  private Color color;
+  private static final Random generator = new Random();
+  private final int length;
+  private final int x;
+  private final int y;
+  private final Color color;
 
   public Square() {
     this.length = generator.nextInt(101) + 100;

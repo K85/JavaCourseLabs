@@ -8,7 +8,7 @@ package coursesource.chap08;
 
 public class Family
 {
-   private String[] members;
+   private final String[] members;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this family by storing the (possibly

@@ -8,8 +8,10 @@ package coursesource.chap07;
 
 public class Student
 {
-   private String firstName, lastName;
-   private Address homeAddress, schoolAddress;
+   private final String firstName;
+    private final String lastName;
+   private final Address homeAddress;
+    private final Address schoolAddress;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this student with the specified values.

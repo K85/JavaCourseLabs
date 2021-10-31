@@ -13,7 +13,7 @@ import java.util.Random;
 public class Account {
   private double balance;
   private String name;
-  private long acctNum;
+  private final long acctNum;
 
   private static int numAccounts = 0;
 
@@ -105,7 +105,7 @@ public class Account {
   }
 
   public Account(double initBal, String owner) {
-    this(initBal, owner, (long) new Random().nextInt(10000));
+    this(initBal, owner, new Random().nextInt(10000));
   }
 
   public Account(String owner) {

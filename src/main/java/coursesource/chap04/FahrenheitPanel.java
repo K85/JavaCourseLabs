@@ -12,8 +12,10 @@ import javax.swing.*;
 
 public class FahrenheitPanel extends JPanel
 {
-   private JLabel inputLabel, outputLabel, resultLabel;
-   private JTextField fahrenheit;
+   private final JLabel inputLabel;
+    private final JLabel outputLabel;
+    private final JLabel resultLabel;
+   private final JTextField fahrenheit;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up the main GUI components.

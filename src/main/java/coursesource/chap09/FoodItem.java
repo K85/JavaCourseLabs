@@ -10,7 +10,7 @@ package coursesource.chap09;
 public class FoodItem
 {
    final private int CALORIES_PER_GRAM = 9;
-   private int fatGrams;
+   private final int fatGrams;
    protected int servings;
 
    //-----------------------------------------------------------------

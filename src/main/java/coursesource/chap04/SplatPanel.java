@@ -11,7 +11,11 @@ import java.awt.*;
 
 public class SplatPanel extends JPanel
 {
-   private Circle circle1, circle2, circle3, circle4, circle5;
+   private final Circle circle1;
+    private final Circle circle2;
+    private final Circle circle3;
+    private final Circle circle4;
+    private final Circle circle5;
 
    //-----------------------------------------------------------------
    //  Constructor: Creates five Circle objects.

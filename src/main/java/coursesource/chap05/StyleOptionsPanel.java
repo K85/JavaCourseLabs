@@ -12,8 +12,9 @@ import java.awt.event.*;
 
 public class StyleOptionsPanel extends JPanel
 {
-   private JLabel saying;
-   private JCheckBox bold, italic;
+   private final JLabel saying;
+   private final JCheckBox bold;
+    private final JCheckBox italic;
 
    //-----------------------------------------------------------------
    //  Sets up a panel with a label and some check boxes that

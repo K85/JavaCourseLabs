@@ -12,9 +12,13 @@ import java.awt.event.*;
 
 public class QuoteOptionsPanel extends JPanel
 {
-   private JLabel quote;
-   private JRadioButton comedy, philosophy, carpentry;
-   private String comedyQuote, philosophyQuote, carpentryQuote;
+   private final JLabel quote;
+   private final JRadioButton comedy;
+    private final JRadioButton philosophy;
+    private final JRadioButton carpentry;
+   private final String comedyQuote;
+    private final String philosophyQuote;
+    private final String carpentryQuote;
 
    //-----------------------------------------------------------------
    //  Sets up a panel with a label and a set of radio buttons

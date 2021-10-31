@@ -11,11 +11,15 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class BMIPanel extends JPanel {
-  private int WIDTH = 300;
-  private int HEIGHT = 120;
-  private JLabel heightLabel, weightLabel, BMILabel, resultLabel;
-  private JTextField height, weight;
-  private JButton calculate;
+  private final int WIDTH = 300;
+  private final int HEIGHT = 120;
+  private final JLabel heightLabel;
+    private final JLabel weightLabel;
+    private final JLabel BMILabel;
+    private final JLabel resultLabel;
+  private final JTextField height;
+    private final JTextField weight;
+  private final JButton calculate;
 
   // --------------------------------------------------------------
   // Sets up the GUI.

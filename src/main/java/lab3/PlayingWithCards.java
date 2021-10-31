@@ -7,7 +7,7 @@ package lab3;
  */
 
 enum Rank {
-  ace, two, three, four, five, six, seven, eight, nine, ten, jack, queue, king;
+  ace, two, three, four, five, six, seven, eight, nine, ten, jack, queue, king
 }
 
 public class PlayingWithCards {

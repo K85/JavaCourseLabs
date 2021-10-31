@@ -14,11 +14,11 @@ import javax.swing.*;
 public class VoteCounterPanel extends JPanel {
   private int votesForJoe;
   private int votesForSam;
-  private JButton joe;
-  private JButton sam;
-  private JLabel labelJoe;
-  private JLabel labelSam;
-  private JLabel labelResult;
+  private final JButton joe;
+  private final JButton sam;
+  private final JLabel labelJoe;
+  private final JLabel labelSam;
+  private final JLabel labelResult;
 
   // ----------------------------------------------
   // Constructor: Sets up the GUI.
@@ -54,7 +54,7 @@ public class VoteCounterPanel extends JPanel {
     // button is pushed for one of the candidates.
     // ----------------------------------------------
     public void actionPerformed(ActionEvent event) {
-      if ((JButton) event.getSource() == joe) {
+      if (event.getSource() == joe) {
         votesForJoe++;
         labelJoe.setText("Votes for Joe: " + votesForJoe);
       } else if (event.getSource() == sam) {

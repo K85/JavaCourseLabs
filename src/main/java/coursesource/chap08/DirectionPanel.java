@@ -17,7 +17,11 @@ public class DirectionPanel extends JPanel
 
    private final int IMAGE_SIZE = 31;
 
-   private ImageIcon up, down, right, left, currentImage;
+   private final ImageIcon up;
+    private final ImageIcon down;
+    private final ImageIcon right;
+    private final ImageIcon left;
+    private ImageIcon currentImage;
    private int x, y;
 
    //-----------------------------------------------------------------

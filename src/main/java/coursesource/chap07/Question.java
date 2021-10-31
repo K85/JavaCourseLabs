@@ -8,7 +8,8 @@ package coursesource.chap07;
 
 public class Question implements Complexity
 {
-   private String question, answer;
+   private final String question;
+    private final String answer;
    private int complexityLevel;
 
    //-----------------------------------------------------------------

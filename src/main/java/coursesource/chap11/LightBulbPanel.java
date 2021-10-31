@@ -12,8 +12,9 @@ import java.awt.*;
 public class LightBulbPanel extends JPanel
 {
    private boolean on;
-   private ImageIcon lightOn, lightOff;
-   private JLabel imageLabel;
+   private final ImageIcon lightOn;
+    private final ImageIcon lightOff;
+   private final JLabel imageLabel;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up the images and the initial state.

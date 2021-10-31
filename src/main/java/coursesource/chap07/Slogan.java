@@ -8,7 +8,7 @@ package coursesource.chap07;
 
 public class Slogan
 {
-   private String phrase;
+   private final String phrase;
    private static int count = 0;
 
    //-----------------------------------------------------------------

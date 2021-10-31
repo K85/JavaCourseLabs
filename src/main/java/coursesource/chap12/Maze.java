@@ -12,7 +12,7 @@ public class Maze
    private final int TRIED = 3;
    private final int PATH = 7;
 
-   private int[][] grid = { {1,1,1,0,1,1,0,0,0,1,1,1,1},
+   private final int[][] grid = { {1,1,1,0,1,1,0,0,0,1,1,1,1},
                             {1,0,1,1,1,0,1,1,1,1,0,0,1},
                             {0,0,0,0,1,0,1,0,1,0,1,0,0},
                             {1,1,1,0,1,1,1,0,1,0,1,1,1},

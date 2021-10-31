@@ -15,9 +15,10 @@ public class OffCenterPanel extends JPanel
 {
    private final int WIDTH=300, HEIGHT=300;
 
-   private DecimalFormat fmt;
+   private final DecimalFormat fmt;
    private Point current;
-   private int centerX, centerY;
+   private final int centerX;
+    private final int centerY;
    private double length;
 
    //-----------------------------------------------------------------

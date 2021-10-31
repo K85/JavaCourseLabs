@@ -11,15 +11,15 @@ import java.awt.*;
 
 public class RocketPanel extends JPanel
 {
-   private int[] xRocket = {100, 120, 120, 130, 130, 70, 70, 80, 80};
-   private int[] yRocket = {15, 40, 115, 125, 150, 150, 125, 115, 40};
+   private final int[] xRocket = {100, 120, 120, 130, 130, 70, 70, 80, 80};
+   private final int[] yRocket = {15, 40, 115, 125, 150, 150, 125, 115, 40};
 
-   private int[] xWindow = {95, 105, 110, 90};
-   private int[] yWindow = {45, 45, 70, 70};
+   private final int[] xWindow = {95, 105, 110, 90};
+   private final int[] yWindow = {45, 45, 70, 70};
 
-   private int[] xFlame = {70, 70, 75, 80, 90, 100, 110, 115, 120,
+   private final int[] xFlame = {70, 70, 75, 80, 90, 100, 110, 115, 120,
                            130, 130};
-   private int[] yFlame = {155, 170, 165, 190, 170, 175, 160, 185,
+   private final int[] yFlame = {155, 170, 165, 190, 170, 175, 160, 185,
                            160, 175, 155};
 
    //-----------------------------------------------------------------

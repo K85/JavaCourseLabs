@@ -51,7 +51,7 @@ public class Election {
 
       System.out.println("has more areas? y/n");
       response = scan.next();
-    } while (response.toUpperCase().equals("Y"));
+    } while (response.equalsIgnoreCase("Y"));
 
     // Print out the results
     System.out.println(String.format("totalPolly = %d, totalErnest = %d\n", totalPolly, totalErnest));

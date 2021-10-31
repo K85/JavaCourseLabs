@@ -8,7 +8,7 @@ package coursesource.chap13;
 
 public class Magazine 
 {
-   private String title;
+   private final String title;
 
    //-----------------------------------------------------------------
    //  Sets up the new magazine with its title.

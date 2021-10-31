@@ -15,7 +15,7 @@ public class TransferTest {
 
       System.out.println("do you want to transfer ? (y/n)");
       String response = scanner.next();
-      if (!response.toUpperCase().equals("Y")) break; 
+      if (!response.equalsIgnoreCase("Y")) break;
 
 
       System.out.println("how much do you want to transfer? (money amount)");

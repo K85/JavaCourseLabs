@@ -13,8 +13,8 @@ import javax.swing.*;
 public class PushCounterPanel extends JPanel
 {
    private int count;
-   private JButton push;
-   private JLabel label;
+   private final JButton push;
+   private final JLabel label;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up the GUI.

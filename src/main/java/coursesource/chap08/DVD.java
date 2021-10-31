@@ -10,10 +10,11 @@ import java.text.NumberFormat;
 
 public class DVD
 {
-   private String title, director;
-   private int year;
-   private double cost;
-   private boolean bluRay;
+   private final String title;
+    private final String director;
+   private final int year;
+   private final double cost;
+   private final boolean bluRay;
 
    //-----------------------------------------------------------------
    //  Creates a new DVD with the specified information.

@@ -14,9 +14,10 @@ import java.net.URL;
 
 public class JukeBoxControls extends JPanel
 {
-   private JComboBox musicCombo;
-   private JButton stopButton, playButton;
-   private AudioClip[] music;
+   private final JComboBox musicCombo;
+   private final JButton stopButton;
+    private final JButton playButton;
+   private final AudioClip[] music;
    private AudioClip current;
 
    //-----------------------------------------------------------------

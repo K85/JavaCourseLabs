@@ -14,7 +14,7 @@ public class PersonManager
 
   public static void main(String[] args) {
     Person p = new Person();
-    p.sayHi();
+    Person.sayHi();
 
     int a = 100;
     

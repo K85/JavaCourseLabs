@@ -19,7 +19,7 @@ public class BaseConvert {
     int place1; // digit in the base^1 place
     int place2; // digit in the base^2 place
     int place3; // digit in the base^3 place
-    String baseBNum = new String(""); // the number in the new base
+    String baseBNum = ""; // the number in the new base
     Scanner scan = new Scanner(System.in);
     // read in the base 10 number and the base
     System.out.println();

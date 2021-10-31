@@ -13,7 +13,7 @@ public enum Season
    summer ("June through August"),
    fall ("September through November");
 
-   private String span;
+   private final String span;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up each value with an associated string.

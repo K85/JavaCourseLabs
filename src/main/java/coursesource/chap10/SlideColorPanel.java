@@ -12,9 +12,14 @@ import javax.swing.event.*;
 
 public class SlideColorPanel extends JPanel
 {
-   private JPanel controls, colorPanel;
-   private JSlider rSlider, gSlider, bSlider;
-   private JLabel rLabel, gLabel, bLabel;
+   private final JPanel controls;
+    private final JPanel colorPanel;
+   private final JSlider rSlider;
+    private final JSlider gSlider;
+    private final JSlider bSlider;
+   private final JLabel rLabel;
+    private final JLabel gLabel;
+    private final JLabel bLabel;
 
    //-----------------------------------------------------------------
    //  Sets up the sliders and their labels, aligning them along

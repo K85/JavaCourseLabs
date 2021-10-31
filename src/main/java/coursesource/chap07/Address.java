@@ -8,8 +8,10 @@ package coursesource.chap07;
 
 public class Address
 {
-   private String streetAddress, city, state;
-   private long zipCode;
+   private final String streetAddress;
+    private final String city;
+    private final String state;
+   private final long zipCode;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up this address with the specified data.

@@ -12,12 +12,12 @@ import javax.swing.*;
 
 public class VoteCounterPanel extends JPanel {
   private int votesForJoe;
-  private JButton joe;
-  private JLabel labelJoe;
+  private final JButton joe;
+  private final JLabel labelJoe;
 
   private int votesForSam;
-  private JButton sam;
-  private JLabel labelSam;
+  private final JButton sam;
+  private final JLabel labelSam;
   // ----------------------------------------------
   // Constructor: Sets up the GUI.
   // ----------------------------------------------

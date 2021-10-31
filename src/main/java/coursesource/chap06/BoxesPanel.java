@@ -14,7 +14,7 @@ public class BoxesPanel extends JPanel
 {
    private final int NUM_BOXES = 50, THICKNESS = 5, MAX_SIDE = 50;
    private final int MAX_X = 350, MAX_Y = 250;
-   private Random generator;
+   private final Random generator;
 
    //-----------------------------------------------------------------
    //  Sets up the drawing panel.

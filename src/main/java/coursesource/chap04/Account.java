@@ -13,9 +13,9 @@ public class Account
 {
    private final double RATE = 0.035;  // interest rate of 3.5%
 
-   private long acctNumber;
+   private final long acctNumber;
    private double balance;
-   private String name;
+   private final String name;
 
    //-----------------------------------------------------------------
    //  Sets up the account by defining its owner, account number,

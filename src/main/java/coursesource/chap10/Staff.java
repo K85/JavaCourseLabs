@@ -8,7 +8,7 @@ package coursesource.chap10;
 
 public class Staff
 {
-   private StaffMember[] staffList;
+   private final StaffMember[] staffList;
 
    //-----------------------------------------------------------------
    //  Constructor: Sets up the list of staff members.

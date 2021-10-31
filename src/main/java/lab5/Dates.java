@@ -29,7 +29,7 @@ public class Dates {
     if (!monthValid)
       daysInMonth = 0;
     else {
-      int table[] = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+      int[] table = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
       daysInMonth = table[month];
       if (month == 2 && leapYear)
         daysInMonth++;

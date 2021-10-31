@@ -23,8 +23,7 @@ public class Beatles
       band.add ("George");
 
       System.out.println (band);
-      int location = band.indexOf ("Pete");
-      band.remove (location);
+       band.remove ("Pete");
 
       System.out.println (band);
       System.out.println ("At index 1: " + band.get(1));

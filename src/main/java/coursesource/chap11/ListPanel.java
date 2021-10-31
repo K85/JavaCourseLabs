@@ -12,8 +12,8 @@ import javax.swing.event.*;
 
 public class ListPanel extends JPanel
 {
-   private JLabel label;
-   private JList list;
+   private final JLabel label;
+   private final JList list;
 
    //-----------------------------------------------------------------
    //  Loads the list of image names into the list.

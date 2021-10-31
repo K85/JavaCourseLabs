@@ -7,7 +7,7 @@ package lab4;
 public class Account {
   private double balance;
   private String name;
-  private long acctNum;
+  private final long acctNum;
 
   public Account(double initBal, String owner, long number) {
     balance = initBal;

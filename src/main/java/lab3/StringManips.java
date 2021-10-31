@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class StringManips {
   public static void main(String[] args) {
-    String phrase = new String("This is a String test.");
+    String phrase = "This is a String test.";
     String middle3 = phrase.substring(11, 14);
     System.out.println("the value of middle3:" + middle3);
 
